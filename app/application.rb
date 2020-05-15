@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
  
     if Time.now.to_i ? < 12:00 PM
-      resp.write "You Win"
+      resp.write "Good Morning!"
     else
       resp.write "You Lose"
     end
